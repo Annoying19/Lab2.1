@@ -31,6 +31,7 @@ SQL_INSERT_BOOK = """
                 VALUES (?, ?, ?, ?, ?)
                 """
 
+
 def generate_book_id() -> None:
     return str(uuid.uuid4())
 
